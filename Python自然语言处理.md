@@ -22,3 +22,7 @@
         |语位学  |形态学    |句法      | 语义       |    推理      |
         </code>
 
+##NLTK 工具函数和工具类
++ 英文分词：nltk.word_tokenize(src_text)
++ 文本对象:nltk.Text(tokens) - tokens必须是一个词汇列表
++ 获取NLTK自带资源：path = ntlk.data.find('relative_path_of_source_file')
